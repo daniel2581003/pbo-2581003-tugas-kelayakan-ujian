@@ -33,3 +33,17 @@ public class KelayakanUjian {
         //apapun nilai di kanannya, jadi java tidak menjalankan (cek++ >=0).
         //karena (cek++ >=0) keduanya tidak dijalankan maka nilai cek tidak bertambah dan tetap 0
 
+        System.out.println();
+        System.out.println("===== KELAYAKAN UJIAN =====");
+        System.out.println("Kehadiran : " + kehadiran + "%");
+        System.out.println("Nilai tugas : " + nilaiTugas);
+        System.out.println("Dispensasi : " + dispensasi);
+        System.out.println();
+        System.out.println("a (tanpa kurung) : " + a);
+        System.out.println("b (kurung precedence) : " + b);
+        System.out.println("c (kurung digeser) : " + c);
+        System.out.println("!dispensasi : " + !dispensasi);
+
+
+    }
+}
